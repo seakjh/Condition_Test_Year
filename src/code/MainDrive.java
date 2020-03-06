@@ -13,7 +13,7 @@ public class MainDrive {
 		int year = scan.nextInt();
 		
 //		4로 안나눠지면 윤년이 아니라고 확정
-		if (year % 4 == 0) {
+		if (year % 4 != 0) {
 			System.out.println("윤년이 아님");
 			System.out.println("4로 안나눠 떨어짐.");
 		}
