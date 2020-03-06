@@ -21,6 +21,12 @@ public class MainDrive {
 //			100으로 나누고 다시 판단해야함.
 			if (year % 100 == 0) {
 //				400으로도 나눠봐야함
+				if (year % 400 == 0) {
+					System.out.println("윤년");
+				}
+				else {
+					System.out.println("윤년x");
+				}
 			}
 			else {
 //				4로만 나눠지니까 윤년이 맞다.
